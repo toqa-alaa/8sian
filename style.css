@@ -126,3 +126,9 @@ margin-bottom: 70px;}
         font-weight: 500;
     }
 }
+@media (max-width:1025px) {
+    html{    height: 100%;
+    }
+    .countdown-container{
+        padding-bottom: 70px;
+}}
