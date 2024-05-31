@@ -4,6 +4,10 @@
 }
 
 body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent overflow issues */
     font-family: "Silkscreen-Regular.ttf", sans-serif;
     text-transform: uppercase;
     display: flex;
@@ -15,6 +19,9 @@ body {
     text-align: center;
     background: linear-gradient(to bottom, #fff5e5, #ff7e5f);
 
+}
+.container{
+    height: 100%;
 }
 @keyframes gradient-background {
 
