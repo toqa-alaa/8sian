@@ -111,6 +111,7 @@ margin-bottom: 70px;}
     .logo{max-width: 60%;}
     .countdown-container{
         font-size: 18px;
+        padding-bottom: 70px;
     }
     .countdown-box{
         background-color: #222222;
