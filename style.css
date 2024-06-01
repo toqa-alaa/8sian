@@ -4,10 +4,9 @@
 }
 
 body {
-    height: 100%;
+    min-height:100vh;
     margin: 0;
     padding: 0;
-    overflow: hidden; /* Prevent overflow issues */
     font-family: "Silkscreen-Regular.ttf", sans-serif;
     text-transform: uppercase;
     display: flex;
@@ -176,16 +175,23 @@ margin-bottom: 70px;}
 .register {
     padding-top: 10px;
 }
+.register a{
+    text-decoration: none;
+    color: #fc8836;
+}
 
 .register span {
     color: #fc8836;
+    text-decoration: underline;
 }
 
 .register span i {
     color: #fc8836;
     font-size: 16px;
 }
-
+p.c-orange{
+  margin-top: 40px;
+}
 .social {
     display: flex;
     align-items: center;
